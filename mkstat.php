@@ -16,7 +16,7 @@
 </style>
 			<style>
 				body {
-					background: url("http://wallpaperlayer.com/img/2015/1/blurred-city-lights-wallpaper-7607-7901-hd-wallpapers.jpg") no-repeat center center fixed;
+					background: url("http://wallpaperlayer.com/img/2015/1/blurred-image-7588-7881-hd-wallpapers.jpg") no-repeat center center fixed;
 					-webkit-background-size: cover;
 					-moz-background-size: cover;
 					-o-background-size: cover;
