@@ -1,25 +1,13 @@
-<!-- 
-  ____          __  __      _  __     ____        
- |  _ \        |  \/  |    | |/ /    |  _ \       
- | |_) |_   _  | \  / |_ __| ' /_   _| |_) |_   _ 
- |  _ <| | | | | |\/| | '__|  <| | | |  _ <| | | |
- | |_) | |_| | | |  | | |  | . \ |_| | |_) | |_| |
- |____/ \__, | |_|  |_|_|  |_|\_\__,_|____/ \__,_|
-         __/ |                                    
-        |___/            
-		
-
--->
-<!-- CSS -->
+<!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-<!-- theme -->
+<!-- Optional theme -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
-<!-- JavaScript -->
+<!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
-<title>Чек сайта By MrKuBu</title>
+<title>Р§РµРє СЃР°Р№С‚Р° By MrKuBu</title>
 
 <style>
 	.label-check {
@@ -28,7 +16,7 @@
 </style>
 			<style>
 				body {
-					background: url("http://p1.pichost.me/i/11/1344899.jpg") no-repeat center center fixed;
+					background: url("http://wallpaperlayer.com/img/2015/1/blurred-city-lights-wallpaper-7607-7901-hd-wallpapers.jpg") no-repeat center center fixed;
 					-webkit-background-size: cover;
 					-moz-background-size: cover;
 					-o-background-size: cover;
@@ -39,7 +27,7 @@
 "modal-dialog">
 			<div class="modal-content">
 				<div class="modal-header">
-					<h1 class="text-center">Проверка дополнений сайта By MrKuBu</h1>
+					<h1 class="text-center">РџСЂРѕРІРµСЂРєР° РґРѕРїРѕР»РЅРµРЅРёР№ СЃР°Р№С‚Р° By MrKuBu</h1>
 				</div>
 				<div class="modal-body">
 					<div class="form-group">
@@ -60,10 +48,10 @@ $check_list = array(
 );
 
 foreach ($check_list as $name => $label) {
-	echo "<div style='margin-bottom: 5px'><span class='label-check'>$label: </span>" . (extension_loaded($name) ? "<span class='btn btn-success btn-sm'>Есть\работает</span>" : '<span class="btn btn-danger btn-sm">Нету\Отключено</span>') . '</div>';
+	echo "<div style='margin-bottom: 5px'><span class='label-check'>$label: </span>" . (extension_loaded($name) ? "<span class='btn btn-success btn-sm'>Р•СЃС‚СЊ\СЂР°Р±РѕС‚Р°РµС‚</span>" : '<span class="btn btn-danger btn-sm">РќРµС‚Сѓ\РћС‚РєР»СЋС‡РµРЅРѕ</span>') . '</div>';
 }
 
-echo "<div style='margin-bottom: 5px'><span class='label-check'>allow_url_fopen: </span>" . ((ini_get('allow_url_fopen')) ? "<span class='btn btn-success btn-sm'>Есть\работает</span>" : '<span class="btn btn-danger btn-sm">Нету\Отключено</span>') . '</div>';
+echo "<div style='margin-bottom: 5px'><span class='label-check'>allow_url_fopen: </span>" . ((ini_get('allow_url_fopen')) ? "<span class='btn btn-success btn-sm'>Р•СЃС‚СЊ\СЂР°Р±РѕС‚Р°РµС‚</span>" : '<span class="btn btn-danger btn-sm">РќРµС‚Сѓ\РћС‚РєР»СЋС‡РµРЅРѕ</span>') . '</div>';
 ?></center>
 
 				</div>
