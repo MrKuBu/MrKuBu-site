@@ -1,3 +1,3 @@
-Demo link
+Website
 
 https://mrkubu.github.io/MrKuBu-site/
